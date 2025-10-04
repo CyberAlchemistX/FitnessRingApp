@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/main_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_white_title"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/devices_Recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/devices_lin_no_data"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:background="@mipmap/no_devices"
+                android:layout_width="@dimen/dp_265"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/msg_remark_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="@string/not_devices_my"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

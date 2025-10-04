@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/diy2051_rel_adapter_item"
+    android:layout_width="@dimen/dp_44"
+    android:layout_height="@dimen/dp_44"
+    android:layout_marginEnd="@dimen/dp_16">
+    <com.jstyles.jcring.views.public_views.CircleColor
+        android:id="@+id/diy2051_cirview"
+        android:layout_width="@dimen/dp_41"
+        android:layout_height="@dimen/dp_41"
+        android:layout_centerInParent="true"
+        app:round_circleColor="#efed22"/>
+    <ImageView
+        android:id="@+id/diy2051_iv_select"
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_44"
+        android:src="@drawable/diy_color_adapter_select"/>
+</RelativeLayout>

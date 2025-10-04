@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_21">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_style_selected"
+        android:layout_width="@dimen/dp_136"
+        android:layout_height="@dimen/dp_136"
+        android:src="@mipmap/style1963yh_watch_custom_select"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/ImageView_style"
+        android:background="@android:color/black"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/heart_manual_item_rel"
+    android:background="@drawable/bg_rect_msg_item_r20_center"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_55">
+    <TextView
+        android:textSize="@dimen/sp_20"
+        android:textColor="@color/main_text_color"
+        android:id="@+id/heart_manual_item_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:text="2022/10/01 08:30"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_20"/>
+    <TextView
+        android:textSize="@dimen/sp_21"
+        android:textColor="@color/main_text_color"
+        android:id="@+id/heart_manual_item_tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="76"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_2_5"
+        android:layout_toStartOf="@+id/heart_manual_item_tv_tip"/>
+    <TextView
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/msg_remark_text_color"
+        android:id="@+id/heart_manual_item_tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:text="bmp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_alignParentEnd="true"/>
+    <View
+        android:id="@+id/health_edit_item_line"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_alignStart="@+id/edit_type"
+        style="@style/lineitem"/>
+</RelativeLayout>

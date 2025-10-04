@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="start"
+        android:height="@dimen/dp_7"
+        android:width="@dimen/dp_7">
+        <shape android:shape="rectangle">
+            <solid android:color="#a2a8b8"/>
+            <size android:width="@dimen/dp_7"/>
+            <corners android:radius="@dimen/dp_7"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="end"
+        android:height="@dimen/dp_7"
+        android:width="@dimen/dp_7">
+        <shape android:shape="rectangle">
+            <solid android:color="#a2a8b8"/>
+            <size android:width="@dimen/dp_7"/>
+            <corners android:radius="@dimen/dp_7"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center_vertical"
+        android:height="@dimen/dp_3"
+        android:width="@dimen/dp_300">
+        <shape android:shape="rectangle">
+            <solid android:color="#a2a8b8"/>
+            <size android:width="@dimen/dp_7"/>
+            <corners android:radius="@dimen/dp_7"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="@dimen/dp_7"
+        android:width="@dimen/dp_270">
+        <shape android:shape="rectangle">
+            <solid android:color="#ccb0ff"/>
+            <size android:width="@dimen/dp_7"/>
+            <corners android:radius="@dimen/dp_7"/>
+        </shape>
+    </item>
+</layer-list>

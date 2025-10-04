@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/id_appbarlayout_center"
+        android:background="@mipmap/run_top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_212"
+        app:elevation="@dimen/dp_0">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_tool_bar_test_ctl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_32"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.jstyles.jcring.views.public_views.NoScrollViewPager
+        android:orientation="horizontal"
+        android:id="@+id/center_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_m_60"
+        android:fillViewport="true"
+        android:overScrollMode="always"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

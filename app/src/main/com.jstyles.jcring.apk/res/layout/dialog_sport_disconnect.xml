@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/dialog_mian"
+    android:background="@drawable/bg_stroke_white_50_r20_2a3036"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dp_10"
+    android:paddingHorizontal="@dimen/dp_15"
+    android:paddingVertical="@dimen/dp_28">
+    <ImageView
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"
+        android:src="0x7f0801fa"/>
+    <TextView
+        android:textSize="11sp"
+        android:textColor="#ffffffff"
+        android:paddingLeft="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sport_error_devices"/>
+</LinearLayout>

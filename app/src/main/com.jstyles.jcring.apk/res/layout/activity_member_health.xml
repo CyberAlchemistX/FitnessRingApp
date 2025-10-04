@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_title_msg"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/msg_Recy"
+        android:paddingBottom="@dimen/dp_25"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/rl_title"/>
+    <RelativeLayout
+        android:id="@+id/not_dataRt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/not_data"
+            android:layout_width="@dimen/dp_264"
+            android:layout_height="@dimen/dp_192"
+            android:src="@mipmap/not_data_number"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textSize="@dimen/sp_17"
+            android:textColor="#121212"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_87"
+            android:text="@string/not_dta_number"
+            android:includeFontPadding="false"
+            android:layout_below="@+id/not_data"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/dp_10"
+                android:width="@dimen/dp_10"/>
+            <corners android:radius="@dimen/dp_5"/>
+            <solid android:color="@color/run_gps_bg"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="@dimen/dp_7_5"
+        android:width="@dimen/dp_7_5">
+        <shape android:shape="rectangle">
+            <size/>
+            <corners android:radius="@dimen/dp_5"/>
+            <solid android:color="@color/char_seekbar"/>
+        </shape>
+    </item>
+</layer-list>

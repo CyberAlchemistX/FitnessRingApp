@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="end"
+        android:id="@+id/sync_iv_refresh"
+        android:layout_width="@dimen/dp_23"
+        android:layout_height="@dimen/dp_23"
+        android:src="@mipmap/refresh"/>
+    <TextView
+        android:textSize="@dimen/sp_13"
+        android:textColor="#ffffff"
+        android:layout_gravity="end"
+        android:id="@+id/sync_tv_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_sync"/>
+    <com.jstyles.jcring.views.SleepLineRadioView
+        android:layout_gravity="end"
+        android:id="@+id/sync_slv_line"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_55"
+        android:layout_height="@dimen/dp_4"
+        android:layout_marginTop="@dimen/dp_2"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_style_selected"
+        android:layout_width="@dimen/dp_151"
+        android:layout_height="@dimen/dp_151"
+        android:src="@mipmap/bt_diy_selector2051"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/ImageView_style"
+        android:layout_width="@dimen/dp_140"
+        android:layout_height="@dimen/dp_140"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

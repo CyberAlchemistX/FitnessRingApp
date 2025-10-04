@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.jstyles.jcring.views.public_views.GuideInmage
+        android:id="@+id/guide_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_65"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginEnd="@dimen/dp_38"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_160"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold"
+            android:textColor="#006b62"
+            android:id="@+id/guide_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textSize="@dimen/sp_16"
+            android:textColor="#006b62"
+            android:id="@+id/guide_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:text="YOUHONG MEDICAL"
+            android:includeFontPadding="false"
+            android:layout_below="@+id/guide_name"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

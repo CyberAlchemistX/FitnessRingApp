@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/mian_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/emotin_4"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_5"
+        android:src="@drawable/emotin_mode4"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:textSize="@dimen/sp_10"
+        android:textColor="#50ffffff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:text=""
+        android:maxLines="1"
+        android:includeFontPadding="false"/>
+</LinearLayout>

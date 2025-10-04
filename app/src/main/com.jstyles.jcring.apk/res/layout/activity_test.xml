@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/main_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/test_open"
+            android:background="@color/gray_cfcfcf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开"/>
+        <Button
+            android:id="@+id/test_close"
+            android:background="@color/gray_cfcfcf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭"/>
+    </LinearLayout>
+    <com.jstyles.jcring.views.HealthDateChangeView
+        android:id="@+id/health_date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

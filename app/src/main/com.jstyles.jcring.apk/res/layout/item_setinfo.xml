@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info_rt"
+    android:background="@drawable/ripple_bg_white_rect20"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_60"
+    android:layout_marginTop="@dimen/dp_8">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/info_img"
+        android:layout_width="@dimen/dp_22"
+        android:layout_height="@dimen/dp_22"
+        android:src="@mipmap/devices_mian_01"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_20"/>
+    <TextView
+        android:textSize="@dimen/sp_14"
+        android:textColor="@android:color/black"
+        android:gravity="start|center_vertical"
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Measurement_setup"
+        android:maxLines="3"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_13"
+        android:layout_marginEnd="@dimen/dp_13"
+        android:layout_toEndOf="@+id/info_img"/>
+</RelativeLayout>

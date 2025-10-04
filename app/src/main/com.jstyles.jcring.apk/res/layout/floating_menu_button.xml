@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jstyles.jcring.views.floatingactionbutton.MultiFloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/floating_button"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/dp_65"
+    app:animationModes="scale"
+    app:layout_behavior="com.jstyles.jcring.views.floatingactionbutton.HideBehavior"
+    app:mymaxImageSize="@dimen/dp_53"
+    app:switchColosIcon="@mipmap/floating_action_no"
+    app:switchFabColor="@android:color/transparent"
+    app:switchFabIcon="@mipmap/floating_action_yes">
+    <com.jstyles.jcring.views.floatingactionbutton.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="@string/healthconnect_tip7">
+        <ImageView
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:src="@mipmap/floating_action_tab2"
+            android:scaleType="fitXY"/>
+    </com.jstyles.jcring.views.floatingactionbutton.TagFabLayout>
+    <com.jstyles.jcring.views.floatingactionbutton.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="@string/healthconnect_tip6">
+        <ImageView
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:src="@mipmap/floating_action_tab1"
+            android:scaleType="fitXY"/>
+    </com.jstyles.jcring.views.floatingactionbutton.TagFabLayout>
+</com.jstyles.jcring.views.floatingactionbutton.MultiFloatingActionButton>

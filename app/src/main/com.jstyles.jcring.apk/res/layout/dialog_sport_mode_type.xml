@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_mian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_rect_msg_item_r20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_344"
+        android:layout_marginBottom="@dimen/dp_9"
+        android:layout_marginStart="@dimen/dp_9"
+        android:layout_marginEnd="@dimen/dp_9">
+        <TextView
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/main_text_color"
+            android:gravity="center"
+            android:id="@+id/time_warning_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_27"
+            android:includeFontPadding="false"/>
+        <RelativeLayout
+            android:id="@+id/submit_rt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/white"
+                android:id="@+id/time_ok"
+                android:background="@drawable/bg_rect_btn_bg_r10_ripple"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_46"
+                android:layout_marginBottom="@dimen/dp_30"
+                android:text="@string/ok"
+                android:layout_marginStart="@dimen/dp_72"
+                android:layout_marginEnd="@dimen/dp_72"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

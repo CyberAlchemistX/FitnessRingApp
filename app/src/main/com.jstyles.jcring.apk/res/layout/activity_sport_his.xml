@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/main_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_white_title_sport"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/data_recyclerView"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/sport_his_notdata_rt"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/sport_his_notdata"
+                    android:layout_width="@dimen/dp_277"
+                    android:layout_height="@dimen/dp_151"
+                    android:src="@mipmap/sport_his_notdata"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/msg_remark_text_color"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:text="@string/sport_history_null"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

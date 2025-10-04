@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sport_index_2_rt"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_49">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="@dimen/sp_15"
+        android:textColor="@android:color/white"
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sport_index_2"
+        android:includeFontPadding="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_20"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/sport_index_2_img"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_13"
+        android:layout_height="@dimen/dp_19"
+        android:src="@mipmap/ok_img"
+        android:scaleType="fitXY"
+        android:tint="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
